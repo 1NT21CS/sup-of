@@ -8,7 +8,7 @@ import React, { useState, useMemo } from "react";
 // 3) Replace FRIEND_NAME and AVATAR_URL to personalize.
 
 const FRIEND_NAME = "Suprith"; // ▶ change this
-const AVATAR_URL = "public/image.png"; // ▶ replace if you want
+const AVATAR_URL = "/image.png"; // ▶ replace if you want
 
 export default function PrankSubscriptionApp() {
   const [showReveal, setShowReveal] = useState(false);
